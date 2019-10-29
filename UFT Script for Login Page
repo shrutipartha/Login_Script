@@ -1,0 +1,15 @@
+I have created the scripts for the login page in UFT , i have attached the Object Repository and Function Lib for the same.
+Please import the script along with Object repository and function lib (u need to change the path of the datafile in the 2 actions based on the path that is stored)
+As per the test case , we need to change the test data and the script would work.
+
+Below are test cases for which i have created the test script (we can change the details based on the test case)
+1. Create a New Account
+   Expected Result: Sucessfully create a new account
+2. Try to click on the create New Account for existing email id 
+   Expected Result : An authentication message would be shown and would go ahead and sign in into the email address
+3. Sucessfully Sign in with the email id and password.
+ Excepted Result: The sign in should be sucessful
+4. Unsucessfully Sign In with the email id and password (this is to assume the password is wrong)
+   Expected Result : Authentication failure message would be displayed and click on the forgot password link and sucessfully send the link to the email id.
+5. Sucessfuly Log out to check for another user , incase already logged in (while sign in)
+   Expected Result: Sucessfully log out.
